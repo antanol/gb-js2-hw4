@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ 2</title>
+    
+    <!-- Стили подключаем через лоадеры вебпака -->
+    <!-- <link rel="stylesheet" href="style/main.css"> -->
+    <!-- Подключение font-awesome -->
+    <script src="https://use.fontawesome.com/3a05ab18ac.js"></script>
+</head>
+<body>
+    <div class="tasks">
+        <div class="texttasks">
+            <h3>Задания:</h3>
+            <ol>
+                <li>
+                    Дан большой текст, в котором для оформления прямой речи используются одинарные кавычки. 
+                    Придумать шаблон, который заменяет одинарные кавычки на двойные.
+                </li>
+                <li>Улучшить шаблон так, чтобы в конструкциях типа aren't одинарная кавычка не заменялась на двойную.</li>
+                <li>Создать форму обратной связи с полями: 
+                    <ul>
+                        <li>Имя,</li>
+                        <li>Телефон,</li>
+                        <li>E-mail,</li>
+                        <li>текст,</li>
+                        <li>кнопка Отправить.</li>
+                    </ul>
+                    При нажатии на кнопку Отправить произвести валидацию полей следующим образом:
+                    <ol type="a">
+                        <li>Имя содержит только буквы.</li>
+                        <li>Телефон имеет вид +7(000)000-0000.</li>
+                        <li>E-mail имеет вид mymail@mail.ru, или my.mail@mail.ru, или my-mail@mail.ru.</li>
+                        <li>Текст произвольный.</li>
+                        <li>Если одно из полей не прошло валидацию,
+                             необходимо выделить это поле красной рамкой и сообщить пользователю об ошибке.</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="answers">
+            <h3>Результат</h3>
+            <nav>
+                <a href="#task1-2">Задания 1-2</a> |
+                <a href="#task3">Задание 3</a>
+            </nav>
+            <div id="task1-2">
+            </div>
+            <div id="task3" class="task-hidden">
+            </div>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
