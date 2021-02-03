@@ -40,6 +40,25 @@ body{
     }
 }
 
-textarea{
+#task1-2 textarea{
     margin: 10px 0;
+}
+
+#form{
+    padding: 10px;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+
+    background-color: lightgreen;
+
+    .hi{
+        margin-bottom: 20px;
+    }
+
+    label{
+        margin: 10px 0;
+
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
 }

@@ -2,3 +2,4 @@
 import '../style/main.scss';
 import './switsher_task.js';
 import './task_fix_it.js';
+import './checkForm.js';
