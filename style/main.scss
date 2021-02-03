@@ -62,3 +62,8 @@ body{
         grid-template-columns: 1fr 5fr;
     }
 }
+
+.incorrect-field{
+    outline: red;
+    border: 1px solid red;
+}
